@@ -1,0 +1,135 @@
+.admin-dashboard-wrapper {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #f7f9f4;
+  }
+  
+  .admin-sidebar {
+  width: 220px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  }
+  
+  .admin-sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #6b21a8;
+  padding-bottom: 10px;
+  }
+  
+  .admin-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .admin-menu-list li {
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  }
+  
+  .admin-menu-list li:hover {
+  background-color: #34495e;
+  }
+  
+  .admin-menu-list li.active {
+  background-color: #426dad;
+  font-weight: bold;
+  }
+  
+  .admin-main-content {
+  flex-grow: 1;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: rgb(241, 241, 241);
+  box-shadow: inset 0 0 10px #ddd;
+  overflow-y: auto;
+  }
+  
+  .section {
+  margin-bottom: 30px;
+  }
+  
+  .section h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #34495e;
+  border-bottom: 2px solid #dcd5e2;
+  padding-bottom: 5px;
+  }
+  
+  .bookings-section ul,
+  .contacts-section ul,
+  .tickets-section ul {
+  list-style-type: none;
+  padding-left: 0;
+  }
+  
+  .bookings-section li,
+  .contacts-section li,
+  .tickets-section li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  .ticket-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+    }
+  
+.ticket-form input {
+ width: 200px; /* Set a fixed smaller width */
+ padding: 8px 10px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+}
+    
+
+  .ticket-form button {
+  background-color: #426dad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .ticket-form button:hover {
+  background-color: #426dad;
+  }
+  
+  .followers-table {
+  width: 100%;
+  border-collapse: collapse;
+  }
+  
+  .followers-table th,
+  .followers-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  }
+  
+  .followers-table th {
+  background-color: #426dad;
+  color: white;
+  }
+  
+  .followers-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+  }
+  
+  .followers-table tr:hover {
+  background-color: #d6e9f8;
+  }

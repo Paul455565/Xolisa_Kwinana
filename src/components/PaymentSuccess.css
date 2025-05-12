@@ -1,0 +1,20 @@
+/* Styling for the PaymentSuccess component */
+.payment-success-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-success-container h2 {
+    text-align: center;
+    color: green;
+  }
+  
+  .payment-success-container p {
+    text-align: center;
+    color: #555;
+  }
+  

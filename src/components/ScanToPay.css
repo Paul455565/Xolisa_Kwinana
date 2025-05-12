@@ -1,0 +1,56 @@
+.scan-to-pay-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    height: 100vh;
+  }
+  
+  .scan-to-pay-page h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .scan-to-pay-page p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .scan-to-pay-page button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .scan-to-pay-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  .qr-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .qr-container p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .qr-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .scan-to-pay-page p strong {
+    font-weight: bold;
+  }
+  
